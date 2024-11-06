@@ -10,9 +10,17 @@ public class Main {
      * @param numB Otro número cualquiera
      * @return El producto de los dos números
      */
-    public static double multiplicar(int numA, int numB){
-        return numA*numB;
+    public static double multiplicar(int numA, int numB) {
+        return numA * numB;
+    }
 
+    /**
+     * Función básica que devuelve el resultado de la suma entre dos números
+     *
+     * @param a Un número cualquiera
+     * @param b Otro número cualquiera
+     * @return La suma de los dos números
+     */
     private static int sumar(int a, int b) {
         return a + b;
     }
@@ -26,7 +34,6 @@ public class Main {
      */
     private static double restar(double num1, double num2) {
         return num1 - num2;
-
     }
 
     public static void main(String[] args) {
